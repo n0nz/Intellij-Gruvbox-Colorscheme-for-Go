@@ -1,4 +1,4 @@
-# Intellij-Gruvbox-Colorscheme-for-Go
+# Intellij Gruvbox Colorscheme for Go Programming Language
 My current intellij (gruvbox) colorscheme, small adjustment from Material Monokai Pro making it like gruvbox using it for coding in Go Programming Language
 
 Font: https://github.com/belluzj/fantasque-sans
