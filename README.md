@@ -7,6 +7,8 @@ Terminal Font: http://input.fontbureau.com
 
 Material (Windows) Color => Material Darker: https://github.com/ChrisRM/material-theme-jetbrains
 
+Jetbrains Plugin Page: https://plugins.jetbrains.com/plugin/12419-gruvbox-color-scheme
+
 Installation (Mac):
 - Copy "*.icls" to "/Users/\<Username\>/Library/Preferences/IntelliJIdea\<Version\>/colors"
 
