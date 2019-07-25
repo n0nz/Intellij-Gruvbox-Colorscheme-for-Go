@@ -4,18 +4,18 @@
     <property name="created">2018-08-20T09:40:13</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2018.2.1.0.0</property>
-    <property name="modified">2019-04-19T14:13:39</property>
+    <property name="modified">2019-07-25T10:12:42</property>
     <property name="originalScheme">Gruvbox</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="Input Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="11" />
+  <option name="CONSOLE_FONT_NAME" value="Monaco Nerd Font Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="10" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="98971a" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="ebdbb2" />
     <option name="CARET_ROW_COLOR" value="282a2e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1d2021" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="282828" />
     <option name="DELETED_LINES_COLOR" value="d73925" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
@@ -41,7 +41,7 @@
     <option name="FILESTATUS_addedOutside" value="98971a" />
     <option name="FILESTATUS_changelistConflict" value="d73925" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="1d2021" />
+    <option name="GUTTER_BACKGROUND" value="282828" />
     <option name="INDENT_GUIDE" value="403e41" />
     <option name="INFORMATION_HINT" value="403e41" />
     <option name="LINE_NUMBERS_COLOR" value="5b595c" />
@@ -300,7 +300,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="1d2021" />
+        <option name="FOREGROUND" value="282828" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -492,6 +492,7 @@
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="596377" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -527,6 +528,7 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="596377" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -597,6 +599,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="d73925" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -607,6 +610,7 @@
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="596377" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -627,6 +631,7 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="d73925" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -698,6 +703,7 @@
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ebdbb2" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DIFF_CONFLICT">
@@ -800,18 +806,31 @@
       <value>
         <option name="EFFECT_COLOR" value="fe8019" />
         <option name="ERROR_STRIPE_COLOR" value="fe8019" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GO_BUILTIN_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="GO_BUILTIN_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_BUILTIN_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_BUILTIN_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_FUNCTION_PARAMETER">
       <value>
         <option name="FOREGROUND" value="83a598" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="GO_LOCAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_METHOD_RECEIVER">
       <value>
         <option name="FOREGROUND" value="83a598" />
       </value>
     </option>
+    <option name="GO_PACKAGE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="HAML_CLASS">
       <value>
         <option name="FOREGROUND" value="98971a" />
@@ -962,6 +981,7 @@
       <value>
         <option name="EFFECT_COLOR" value="d3869b" />
         <option name="ERROR_STRIPE_COLOR" value="d3869b" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -2574,7 +2594,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
-        <option name="BACKGROUND" value="1d2021" />
+        <option name="BACKGROUND" value="282828" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -2586,6 +2606,7 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff8c" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="b8ffd2" />
       </value>
     </option>
@@ -2607,6 +2628,7 @@
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="d79921" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="VELOCITY_KEYWORD">
@@ -2628,6 +2650,7 @@
       <value>
         <option name="EFFECT_COLOR" value="fe8019" />
         <option name="ERROR_STRIPE_COLOR" value="fe8019" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
