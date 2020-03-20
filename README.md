@@ -12,4 +12,4 @@ Jetbrains Plugin Page: https://plugins.jetbrains.com/plugin/12419-gruvbox-color-
 Installation (Mac):
 - Copy "*.icls" to "/Users/\<Username\>/Library/Preferences/IntelliJIdea\<Version\>/colors"
 
-![Screenshot 01](https://raw.githubusercontent.com/nzer0nz/Intellij-Gruvbox-Colorscheme-for-Go/master/screenshots/01.png)
+![Screenshot 01](https://plugins.jetbrains.com/files/12419/screenshot_21351.png)
